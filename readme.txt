@@ -1,0 +1,4 @@
+- Pip install all required modules in requirements.txt
+- Register at https://dashboard.openweather.co.uk/ for your API key
+- Make a .env file and store your API key in this format: "API_KEY = YOUR KEY HERE"
+- Streamlit run app.py
