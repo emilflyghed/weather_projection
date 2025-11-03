@@ -1,0 +1,50 @@
+{
+  "city": "Stockholm",
+  "units": "metric",
+  "fetched_at": "2025-11-03T10:23:26.937535+00:00",
+  "data": {
+    "coord": {
+      "lon": 18.0649,
+      "lat": 59.3326
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 9.3,
+      "feels_like": 7.34,
+      "temp_min": 8.43,
+      "temp_max": 9.86,
+      "pressure": 1008,
+      "humidity": 84,
+      "sea_level": 1008,
+      "grnd_level": 1004
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.6,
+      "deg": 240
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1762165133,
+    "sys": {
+      "type": 1,
+      "id": 1788,
+      "country": "SE",
+      "sunrise": 1762150320,
+      "sunset": 1762181431
+    },
+    "timezone": 3600,
+    "id": 2673730,
+    "name": "Stockholm",
+    "cod": 200
+  }
+}

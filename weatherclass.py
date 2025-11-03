@@ -38,13 +38,8 @@ class WeatherReport:
         except ConnectionError:
             raise ConnectionError("Network connection error — check your internet")
 
-        except HTTPError as http_err:
-            # Return specific OpenWeather errors if possible
-            try:
-                details = response.json().get("message", "Unknown API error")
-            except Exception:
-                details = str(http_err)
-            raise ValueError(f"API returned error: {details}")
+        except HTTPError as e:
+            raise HTTPError(e)
 
         except RequestException:
             raise RuntimeError("Unexpected error during API request")
